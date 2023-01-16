@@ -30,7 +30,6 @@ namespace PlayerCore
 
     protected List<SupplementaryComponent> _supplementaryComponents;
     protected List<CoreComponent> _objectCoreComponents;
-    protected List<CoreComponent> _objectCoreComponentsToActivate;
     protected CharacterBase _character;
 
     /// <summary>

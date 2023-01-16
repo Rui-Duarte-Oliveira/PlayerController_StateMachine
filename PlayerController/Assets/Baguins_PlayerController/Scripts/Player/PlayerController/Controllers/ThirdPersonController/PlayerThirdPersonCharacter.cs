@@ -26,7 +26,7 @@ namespace PlayerCore
     [SerializeField] private float _accelaration;
 
     private Rigidbody _rigidBody;
-    [SerializeField] private Animator _animator;
+    private Animator _animator;
 
     private void Awake()
     {

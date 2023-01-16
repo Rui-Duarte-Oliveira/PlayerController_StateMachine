@@ -1,3 +1,5 @@
+using UnityEngine;
+
 namespace PlayerCore
 {
   public class ThirdPersonComponentsManager : ComponentsManagerMultiple
@@ -7,6 +9,8 @@ namespace PlayerCore
       base.OnActivation();
 
       _objectCoreComponents[0].IsActive = true;
+      Cursor.visible = false;
+      Cursor.lockState = CursorLockMode.Locked;
     }
 
     public override int CanBeSetActive()
